@@ -5,13 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QuestTest</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 
 <body>
-    <p class="year-question">What is the year now?</p>
-    <input class="input-year" placeholder="1994" type="text">
-    <button class="btn-year">Check</button>
-    <p class="result-year"></p>
+    <div class="MainContainer">
+        <div class="yearDiv">
+            <p class="year-question">What is the year now?</p>
+            <input class="input-year" placeholder="1994" type="text">
+            <button class="btn-year">Check</button>
+            <p class="result-year"></p>
+        </div>
+        <div class="weatherDiv">
+            <p>What is the weather like today?</p>
+            <select name="" id="" class="select-weather">
+                <option value="" selected disabled>Choose the weather</option>
+                <option value="">Sunny</option>
+                <option value="">Cloudy</option>
+                <option value="">Rainy</option>
+                <option value="">Snowy</option>
+            </select>
+        </div>
+        <div class="seasonDiv">
+            <p>What is your favourite season for you?</p>
+            <label for=""><input type="radio" name="RadioGroup">Spring</label>
+            <label for=""><input type="radio" name="RadioGroup">Summer</label>
+            <label for=""><input type="radio" name="RadioGroup">Fall</label>
+            <label for=""><input type="radio" name="RadioGroup">Winter</label>
+        </div>
+    </div>
 </body>
 <script src="index.js"></script>
 

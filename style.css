@@ -1,0 +1,60 @@
+body {
+  background-color: Beige;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.MainContainer {
+  text-align: center;
+}
+/* --- */
+.yearDiv {
+  margin-top: 60px;
+}
+.year-question {
+}
+.input-year {
+  width: 100px;
+  padding: 10px;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+
+  font-size: 14px;
+}
+
+.input-year:focus {
+  border-color: #2980b9;
+}
+.btn-year {
+  height: 30px;
+  margin-left: 5px;
+  border: none;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
+.btn-year:active {
+  border-color: #8cc1e4;
+}
+.result-year {
+  color: cadetblue;
+  font-weight: bold;
+}
+
+/* --- */
+.weatherDiv {
+  margin-top: 60px;
+}
+.btn-year {
+  cursor: pointer;
+}
+
+.select-weather {
+  cursor: pointer;
+}
+/* --- */
+.seasonDiv {
+  margin-top: 60px;
+}
